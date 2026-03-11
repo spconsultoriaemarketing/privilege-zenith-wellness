@@ -1,4 +1,6 @@
 import logo from "@/assets/logo-privilege.png";
+
+const FooterSection = () => {
   return (
     <footer className="bg-primary-dark py-12">
       <div className="container">
