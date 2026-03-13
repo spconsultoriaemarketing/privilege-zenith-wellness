@@ -9,10 +9,10 @@ const FooterSection = () => {
             <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-12 w-auto" />
             <div>
               <h3 className="font-display text-2xl font-bold text-primary-foreground">
-                Privilege
+
               </h3>
               <p className="font-body text-primary-foreground/60 text-sm">
-                Saúde e Bem-Estar
+
               </p>
             </div>
           </div>
@@ -21,8 +21,8 @@ const FooterSection = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default FooterSection;

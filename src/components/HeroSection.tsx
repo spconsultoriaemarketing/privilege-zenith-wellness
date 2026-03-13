@@ -10,15 +10,15 @@ const HeroSection = () => {
           src={heroImage}
           alt="Espaço Privilege Saúde e Bem Estar com equipamentos de pilates e ambiente acolhedor"
           className="w-full h-full object-cover"
-          loading="eager"
-        />
+          loading="eager" />
+        
         <div className="absolute inset-0 bg-hero-gradient" />
       </div>
 
       <div className="container relative z-10 py-20">
         <div className="max-w-2xl animate-fade-in-up">
-          <p className="font-body text-primary-foreground/80 text-sm uppercase tracking-[0.3em] mb-4">
-            Saúde & Bem-Estar
+          <p className="font-body text-primary-foreground/80 text-sm uppercase tracking-[0.3em] mb-4">A MELHOR CLÍNICA DE FISIOTERAPIA DE BRASÍLIA!
+
           </p>
           <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-6">
             Privilege
@@ -38,8 +38,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
