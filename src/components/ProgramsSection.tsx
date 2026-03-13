@@ -36,11 +36,11 @@ const ProgramsSection = () => {
           </div>
           <div className="order-1 lg:order-2">
             <img
-              src={seniorImage}
+
               alt="Programa Privilege Sênior com idosos praticando exercícios"
               className="rounded-lg shadow-elevated w-full h-[400px] object-cover"
-              loading="lazy"
-            />
+              loading="lazy" src="/lovable-uploads/a7182058-e29b-4d2c-94ca-6d477cbd6642.jpg" />
+            
           </div>
         </div>
 
@@ -48,11 +48,11 @@ const ProgramsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src={plusImage}
+
               alt="Programa Privilege Plus com jovens e adultos fazendo treinamento funcional"
               className="rounded-lg shadow-elevated w-full h-[400px] object-cover"
-              loading="lazy"
-            />
+              loading="lazy" src="/lovable-uploads/494c576f-64b6-4d58-81d8-5503ca565a50.jpg" />
+            
           </div>
           <div>
             <span className="inline-block bg-accent/20 text-accent-foreground font-body text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
@@ -73,8 +73,8 @@ const ProgramsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ProgramsSection;
