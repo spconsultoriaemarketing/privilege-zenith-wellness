@@ -41,7 +41,7 @@ const ServicesSection = () => {
           <p className="font-body text-sm uppercase tracking-[0.3em] text-primary-light mb-3">
             Nossos Serviços
           </p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary bg-primary-light">Privilégio é começar o dia em movimento
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary bg-primary-foreground">Privilégio é começar o dia em movimento
 
           </h2>
         </div>
