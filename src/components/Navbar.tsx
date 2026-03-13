@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-primary-dark/90 backdrop-blur-md border-b border-primary-foreground/10">
       <div className="container flex items-center justify-between h-16">
         <a href="#inicio" className="flex items-center gap-2">
-          <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-10 w-auto" />
+          <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-14 w-auto brightness-0 invert" />
           <span className="font-display text-xl font-bold text-primary-foreground hidden sm:inline">
 
           </span>
