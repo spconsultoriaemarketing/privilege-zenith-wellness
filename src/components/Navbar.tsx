@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo-privilege.png";
 
 const navLinks = [
 { label: "Início", href: "#inicio" },
 { label: "Serviços", href: "#servicos" },
 { label: "Programas", href: "#programas" },
-{ label: "Localização", href: "#localizacao" },
 { label: "Contato", href: "#contato" }];
 
 
@@ -30,10 +30,16 @@ const Navbar = () => {
             key={link.href}
             href={link.href}
             className="font-body text-sm text-primary-foreground/80 hover:text-accent transition-colors">
-            
+
               {link.label}
             </a>
           )}
+          <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+            <Button variant="default" size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold">
+              <Phone className="mr-2 h-4 w-4" />
+              Ligue Agora
+            </Button>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -41,7 +47,7 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
           className="md:hidden text-primary-foreground"
           aria-label="Menu">
-          
+
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </div>
@@ -55,10 +61,20 @@ const Navbar = () => {
           href={link.href}
           onClick={() => setOpen(false)}
           className="block px-6 py-3 font-body text-primary-foreground/80 hover:text-accent transition-colors">
-          
+
               {link.label}
             </a>
         )}
+        <a
+          href="https://www.contate.me/privilege-saudeebemestar"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setOpen(false)}
+          className="block px-6 py-3 font-body text-accent hover:text-accent/80 transition-colors font-semibold"
+        >
+          <Phone className="inline h-4 w-4 mr-2" />
+          Ligue Agora
+        </a>
         </div>
       }
     </nav>);
