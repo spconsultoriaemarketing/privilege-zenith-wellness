@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Convênios", href: "/convenios" },
   { label: "Galeria", href: "/galeria" },
   { label: "Contato", href: "/#contato" },
+  { label: "Localização", href: "/#localizacao" },
 ];
 
 const Navbar = () => {
