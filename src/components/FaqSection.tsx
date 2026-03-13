@@ -59,6 +59,19 @@ const FaqSection = () => {
             </AccordionItem>
           ))}
         </Accordion>
+
+        <div className="mt-10 text-center">
+          <a
+            href="https://g.page/r/CVkWO1D1PGNMEBM/review"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-green-600 hover:bg-green-700 text-white font-display text-lg px-8 py-6 rounded-xl gap-2">
+              <Star className="h-5 w-5" />
+              Avalie-nos no Google
+            </Button>
+          </a>
+        </div>
       </div>
     </section>
   );
