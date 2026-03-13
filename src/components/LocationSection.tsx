@@ -63,9 +63,20 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h3 className="font-display text-xl font-semibold text-foreground mb-2">Contato</h3>
-                  <p className="font-body text-muted-foreground">
-                    Entre em contato para agendar sua avaliação ou tirar dúvidas sobre nossos serviços e programas.
-                  </p>
+                  <div className="font-body text-muted-foreground space-y-2">
+                    <p>
+                      <span className="text-foreground font-medium">Email:</span>{" "}
+                      <a href="mailto:contato@privilegesaude.com" className="hover:text-primary transition-colors">
+                        contato@privilegesaude.com
+                      </a>
+                    </p>
+                    <p>
+                      <span className="text-foreground font-medium">Telefone:</span>{" "}
+                      <a href="tel:+5561982190559" className="hover:text-primary transition-colors">
+                        (61) 98219-0559
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
