@@ -6,7 +6,7 @@ const FooterSection = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-16 w-auto brightness-0 invert" />
+            <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-32 w-auto brightness-0 invert" />
             <div>
               <h3 className="font-display text-2xl font-bold text-primary-foreground">
 
