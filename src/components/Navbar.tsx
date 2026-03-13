@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo-privilege.png";
 
@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Convênios", href: "/convenios" },
   { label: "Galeria", href: "/galeria" },
   { label: "Contato", href: "/#contato" },
+  { label: "Localização", href: "/#localizacao" },
 ];
 
 const Navbar = () => {
