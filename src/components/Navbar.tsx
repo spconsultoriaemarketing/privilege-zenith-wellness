@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={(e) => handleNavClick(e, "/#inicio")}
           className="flex items-center gap-2"
         >
-          <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-14 w-auto brightness-0 invert" />
+          <img src={logo} alt="Privilege Saúde e Bem-Estar" className="h-20 w-auto brightness-0 invert" />
         </a>
 
         {/* Desktop */}
