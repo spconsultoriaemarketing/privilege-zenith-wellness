@@ -11,7 +11,7 @@ const FooterSection = () => {
             <img 
               src={logo} 
               alt="Privilege Saúde e Bem-Estar" 
-              className="h-24 w-auto brightness-0 invert mb-2"
+              className="h-36 w-auto brightness-0 invert mb-3"
             />
             <span className="font-body text-primary-foreground/60 text-sm">
               Saúde e Bem-Estar
