@@ -28,13 +28,17 @@ const HeroSection = () => {
             Cuidamos do seu movimento e longevidade com atenção e técnicas seguras. Seu corpo e mente em equilíbrio.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="default" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8">
-              Agende sua Avaliação
-            </Button>
-            <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-body text-base px-8">
-              <Phone className="mr-2 h-4 w-4" />
-              Fale Conosco
-            </Button>
+            <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+              <Button variant="default" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8">
+                Agende sua Avaliação
+              </Button>
+            </a>
+            <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-body text-base px-8">
+                <Phone className="mr-2 h-4 w-4" />
+                Fale Conosco
+              </Button>
+            </a>
           </div>
         </div>
       </div>

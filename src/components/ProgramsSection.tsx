@@ -28,9 +28,11 @@ const ProgramsSection = () => {
               Cuidar do corpo e da mente é o primeiro passo para envelhecer com qualidade.
               O Privilege Sênior combina <strong className="text-foreground">Exercícios Físicos, Treino Cognitivo, Aeróbico, Gameterapia, Pilates e Atividades de Dupla Tarefa</strong>, tudo pensado para fortalecer o corpo, estimular a mente e manter a autonomia em cada fase da vida.
             </p>
-            <Button variant="default" size="lg" className="font-body font-semibold">
-              Saiba Mais
-            </Button>
+            <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+              <Button variant="default" size="lg" className="font-body font-semibold">
+                Saiba Mais
+              </Button>
+            </a>
           </div>
           <div className="order-1 lg:order-2">
             <img
@@ -63,9 +65,11 @@ const ProgramsSection = () => {
               Para quem quer treinar força e fazer Pilates, mas não se identifica com a academia.
               O Privilege Plus une o melhor do <strong className="text-foreground">Treinamento Funcional com a inteligência do Pilates</strong>, criando um treino completo, desafiador e personalizado para jovens e adultos que buscam saúde, força e bem-estar.
             </p>
-            <Button variant="default" size="lg" className="font-body font-semibold">
-              Saiba Mais
-            </Button>
+            <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+              <Button variant="default" size="lg" className="font-body font-semibold">
+                Saiba Mais
+              </Button>
+            </a>
           </div>
         </div>
       </div>
