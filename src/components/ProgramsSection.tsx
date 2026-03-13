@@ -65,9 +65,11 @@ const ProgramsSection = () => {
               Para quem quer treinar força e fazer Pilates, mas não se identifica com a academia.
               O Privilege Plus une o melhor do <strong className="text-foreground">Treinamento Funcional com a inteligência do Pilates</strong>, criando um treino completo, desafiador e personalizado para jovens e adultos que buscam saúde, força e bem-estar.
             </p>
-            <Button variant="default" size="lg" className="font-body font-semibold">
-              Saiba Mais
-            </Button>
+            <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+              <Button variant="default" size="lg" className="font-body font-semibold">
+                Saiba Mais
+              </Button>
+            </a>
           </div>
         </div>
       </div>
