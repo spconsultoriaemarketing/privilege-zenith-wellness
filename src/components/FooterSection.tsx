@@ -1,3 +1,4 @@
+import logo from "@/assets/logo-privilege.png";
 import { Mail, Phone, Instagram, MessageCircle } from "lucide-react";
 
 const FooterSection = () => {
@@ -6,10 +7,12 @@ const FooterSection = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mb-12">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <span className="font-display text-2xl font-bold text-primary-foreground">
-              Privilege
-            </span>
+          <div className="flex flex-col items-center md:items-start">
+            <img 
+              src={logo} 
+              alt="Privilege Saúde e Bem-Estar" 
+              className="h-24 w-auto brightness-0 invert mb-2"
+            />
             <span className="font-body text-primary-foreground/60 text-sm">
               Saúde e Bem-Estar
             </span>
