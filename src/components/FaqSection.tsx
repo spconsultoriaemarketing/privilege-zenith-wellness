@@ -4,6 +4,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
