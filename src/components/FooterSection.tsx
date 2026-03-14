@@ -47,7 +47,7 @@ const FooterSection = () => {
           {/* Redes Sociais */}
           <div className="flex justify-center md:justify-end gap-4">
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/privilege_saude?igsh=aXZhcncwcGFkY3o3" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
