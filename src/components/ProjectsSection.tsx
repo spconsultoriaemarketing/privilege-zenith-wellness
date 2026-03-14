@@ -71,7 +71,7 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-12">
           {images.map((image) => (
             <img
               key={image.alt}
@@ -81,6 +81,14 @@ const ProjectsSection = () => {
               loading="lazy"
             />
           ))}
+        </div>
+
+        <div className="flex justify-center">
+          <a href="https://www.contate.me/privilege-saudeebemestar" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold">
+              Venha conhecer nossos projetos
+            </Button>
+          </a>
         </div>
       </div>
     </section>
