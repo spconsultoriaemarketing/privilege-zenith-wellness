@@ -66,7 +66,7 @@ const FaqSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-display text-lg px-8 py-6 rounded-xl gap-2">
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-display text-lg px-8 py-6 rounded-xl gap-2">
               <Star className="h-5 w-5" />
               Avalie-nos no Google
             </Button>
