@@ -61,7 +61,11 @@ const Navbar = () => {
               key={link.href}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="font-body text-sm text-primary-foreground/80 hover:text-accent transition-colors"
+              className={`font-body text-sm transition-colors ${
+                link.label === "Projetos" 
+                  ? "text-accent hover:text-accent/80 font-semibold" 
+                  : "text-primary-foreground/80 hover:text-accent"
+              }`}
             >
               {link.label}
             </a>
@@ -92,7 +96,11 @@ const Navbar = () => {
               key={link.href}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="block px-6 py-3 font-body text-primary-foreground/80 hover:text-accent transition-colors"
+              className={`block px-6 py-3 font-body transition-colors ${
+                link.label === "Projetos"
+                  ? "text-accent hover:text-accent/80 font-semibold"
+                  : "text-primary-foreground/80 hover:text-accent"
+              }`}
             >
               {link.label}
             </a>
