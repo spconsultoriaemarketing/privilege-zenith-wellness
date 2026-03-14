@@ -3,6 +3,7 @@ import grupoImg from "@/assets/projetos/grupo.jpg";
 import cafe1Img from "@/assets/projetos/cafe1.jpg";
 import cafe2Img from "@/assets/projetos/cafe2.jpg";
 import encontroImg from "@/assets/projetos/encontro.jpg";
+import { Button } from "@/components/ui/button";
 
 const projects = [
   {
