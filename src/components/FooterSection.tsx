@@ -7,15 +7,15 @@ const FooterSection = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mb-12">
           {/* Logo */}
-          <div className="flex flex-col items-center md:items-start">
-            <img 
-              src={logo} 
-              alt="Privilege Saúde e Bem-Estar" 
-              className="h-36 w-auto brightness-0 invert mb-3"
-            />
-            <span className="font-body text-primary-foreground/60 text-sm">
-              Saúde e Bem-Estar
-            </span>
+          <div className="flex flex-col items-center md:items-start text-center">
+            <img
+              src={logo}
+              alt="Privilege Saúde e Bem-Estar"
+              className="h-36 w-auto brightness-0 invert mb-3" />
+            
+            
+
+            
           </div>
 
           {/* Contato */}
@@ -27,17 +27,17 @@ const FooterSection = () => {
               Estamos aqui para cuidar de você sempre
             </p>
             <div className="space-y-2">
-              <a 
-                href="mailto:contato@privilegesaude.com" 
-                className="flex items-center justify-center md:justify-start gap-2 font-body text-primary-foreground/80 hover:text-primary-light transition-colors"
-              >
+              <a
+                href="mailto:contato@privilegesaude.com"
+                className="flex items-center justify-center md:justify-start gap-2 font-body text-primary-foreground/80 hover:text-primary-light transition-colors">
+                
                 <Mail className="h-4 w-4" />
                 contato@privilegesaude.com
               </a>
-              <a 
-                href="tel:+5561982190559" 
-                className="flex items-center justify-center md:justify-start gap-2 font-body text-primary-foreground/80 hover:text-primary-light transition-colors"
-              >
+              <a
+
+                className="flex items-center justify-center md:justify-start gap-2 font-body text-primary-foreground/80 hover:text-primary-light transition-colors" href="https://www.contate.me/privilege-saudeebemestar">
+                
                 <Phone className="h-4 w-4" />
                 (61) 98219-0559
               </a>
@@ -46,22 +46,22 @@ const FooterSection = () => {
 
           {/* Redes Sociais */}
           <div className="flex justify-center md:justify-end gap-4">
-            <a 
-              href="https://www.instagram.com/privilege_saude?igsh=aXZhcncwcGFkY3o3" 
-              target="_blank" 
+            <a
+              href="https://www.instagram.com/privilege_saude?igsh=aXZhcncwcGFkY3o3"
+              target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
-              aria-label="Instagram"
-            >
+              aria-label="Instagram">
+              
               <Instagram className="h-5 w-5 text-primary-foreground" />
             </a>
-            <a 
-              href="https://wa.me/5561982190559" 
-              target="_blank" 
+            <a
+              href="https://wa.me/5561982190559"
+              target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
-              aria-label="WhatsApp"
-            >
+              aria-label="WhatsApp">
+              
               <MessageCircle className="h-5 w-5 text-primary-foreground" />
             </a>
           </div>
@@ -73,8 +73,8 @@ const FooterSection = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default FooterSection;
