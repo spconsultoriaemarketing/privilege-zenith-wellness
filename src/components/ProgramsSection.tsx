@@ -50,7 +50,7 @@ const ProgramsSection = () => {
             <img
 
               alt="Programa Privilege Plus com jovens e adultos fazendo treinamento funcional"
-              className="rounded-lg shadow-elevated w-full h-[400px] object-cover"
+              className="rounded-lg shadow-elevated w-full h-[400px] object-scale-down"
               loading="lazy" src="/lovable-uploads/494c576f-64b6-4d58-81d8-5503ca565a50.jpg" />
             
           </div>
