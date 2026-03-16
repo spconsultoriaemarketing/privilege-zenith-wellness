@@ -1,5 +1,5 @@
 import logo from "@/assets/logo-privilege.png";
-import { Mail, Phone, Instagram, MessageCircle } from "lucide-react";
+import { Mail, Phone, Instagram } from "lucide-react";
 
 const FooterSection = () => {
   return (
