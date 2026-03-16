@@ -38,7 +38,7 @@ const ProgramsSection = () => {
             <img
 
               alt="Programa Privilege Sênior com idosos praticando exercícios"
-              className="rounded-lg shadow-elevated w-full h-[400px] object-cover"
+              className="rounded-lg shadow-elevated w-full h-[400px] object-contain"
               loading="lazy" src="/lovable-uploads/a7182058-e29b-4d2c-94ca-6d477cbd6642.jpg" />
             
           </div>
