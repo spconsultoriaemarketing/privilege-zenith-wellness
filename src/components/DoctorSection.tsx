@@ -14,8 +14,8 @@ const DoctorSection = () => {
       <div className="container max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
+          <div className="relative flex items-center justify-center">
+            <div className="rounded-2xl overflow-hidden shadow-xl border border-border max-w-sm w-full">
               <img
                 src={drEder}
                 alt="Dr. Éder Arantes – Especialista em Dor e Saúde Óssea"
